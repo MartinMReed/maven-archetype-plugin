@@ -1,2 +1,3 @@
-com.yourcompany:maven-lolwut-plugin<br/>
-<packaging>wutpack</packaging>
+groupId: com.yourcompany<br/>
+artifactId: maven-lolwut-plugin<br/>
+packaging: wutpack

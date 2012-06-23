@@ -65,16 +65,4 @@
 			<url>http://repo.hardisonbrewing.org/content/repositories/snapshots/</url>
 		</repository>
 	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>hardisonbrewing-releases</id>
-			<name>hardisonbrewing-releases</name>
-			<url>http://repo.hardisonbrewing.org/content/repositories/releases/</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>hardisonbrewing-snapshots</id>
-			<name>hardisonbrewing-snapshots</name>
-			<url>http://repo.hardisonbrewing.org/content/repositories/snapshots/</url>
-		</pluginRepository>
-	</pluginRepositories>
 </project>

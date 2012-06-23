@@ -1,2 +1,2 @@
-com.yourcompany:maven-lolwut-plugin 
+com.yourcompany:maven-lolwut-plugin<br/>
 <packaging>wutpack</packaging>

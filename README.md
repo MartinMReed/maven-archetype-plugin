@@ -1,3 +1,3 @@
 groupId: com.yourcompany<br/>
-artifactId: maven-lolwut-plugin<br/>
-packaging: wutpack
+artifactId: maven-archetype-plugin<br/>
+packaging: mypackage

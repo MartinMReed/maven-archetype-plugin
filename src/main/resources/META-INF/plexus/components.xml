@@ -1,7 +1,7 @@
 <component-set>
 	<components>
 		<component>
-			<role-hint>wutpack</role-hint>
+			<role-hint>mypackage</role-hint>
 			<role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
 			<implementation>org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping</implementation>
 			<configuration>
@@ -9,26 +9,26 @@
 					<lifecycle>
 						<id>clean</id>
 						<phases>
-							<pre-clean>com.yourcompany:maven-lolwut-plugin:pre-clean</pre-clean>
+							<pre-clean>com.yourcompany:maven-archetype-plugin:pre-clean</pre-clean>
 							<clean>org.apache.maven.plugins:maven-clean-plugin:clean,
-								com.yourcompany:maven-lolwut-plugin:clean</clean>
+								com.yourcompany:maven-archetype-plugin:clean</clean>
 						</phases>
 					</lifecycle>
 					<lifecycle>
 						<id>default</id>
 						<phases>
-							<validate>com.yourcompany:maven-lolwut-plugin:validate</validate>
-							<initialize>com.yourcompany:maven-lolwut-plugin:initialize</initialize>
-							<generate-sources>com.yourcompany:maven-lolwut-plugin:dependency-copy,
-								com.yourcompany:maven-lolwut-plugin:generate-sources
+							<validate>com.yourcompany:maven-archetype-plugin:validate</validate>
+							<initialize>com.yourcompany:maven-archetype-plugin:initialize</initialize>
+							<generate-sources>com.yourcompany:maven-archetype-plugin:dependency-copy,
+								com.yourcompany:maven-archetype-plugin:generate-sources
 							</generate-sources>
-							<process-sources>com.yourcompany:maven-lolwut-plugin:process-sources</process-sources>
-							<generate-resources>com.yourcompany:maven-lolwut-plugin:generate-resources</generate-resources>
-							<process-resources>com.yourcompany:maven-lolwut-plugin:process-resources</process-resources>
-							<compile>com.yourcompany:maven-lolwut-plugin:compile</compile>
-							<prepare-package>com.yourcompany:maven-lolwut-plugin:prepare-package</prepare-package>
-							<package>com.yourcompany:maven-lolwut-plugin:package</package>
-							<install>com.yourcompany:maven-lolwut-plugin:install</install>
+							<process-sources>com.yourcompany:maven-archetype-plugin:process-sources</process-sources>
+							<generate-resources>com.yourcompany:maven-archetype-plugin:generate-resources</generate-resources>
+							<process-resources>com.yourcompany:maven-archetype-plugin:process-resources</process-resources>
+							<compile>com.yourcompany:maven-archetype-plugin:compile</compile>
+							<prepare-package>com.yourcompany:maven-archetype-plugin:prepare-package</prepare-package>
+							<package>com.yourcompany:maven-archetype-plugin:package</package>
+							<install>com.yourcompany:maven-archetype-plugin:install</install>
 						</phases>
 					</lifecycle>
 				</lifecycles>
@@ -40,8 +40,8 @@
 			<implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
 			<configuration>
 				<extension>jar</extension>
-				<packaging>wutpack</packaging>
-				<type>wutpack</type>
+				<packaging>mypackage</packaging>
+				<type>mypackage</type>
 			</configuration>
 		</component>
 	</components>
